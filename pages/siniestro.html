@@ -28,14 +28,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
+<!--Boootsrap-->
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+<!--Boootsrap-->
 
      <!--Fin fuentes-->
 </head>
-<body class="bodychoque">
-
-    <div> </div>
+<body>
     
     <header class="cabecera">
 
@@ -76,10 +77,43 @@
 
     </header>
 
+    <div class="container">
+
+        <form>
+            <div class="mb-3" >
+              <label for="exampleInputEmail1" class="form-label">Nombre y apellido</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class= "fw-bold"  id="exampleInputEmail1">Recordá ponerlo tal cual figura en tu documento.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">DNI</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Numero de póliza</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">E-mail</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+    </div>
+
+
+
 
       <!--Formulario-->
 
-    <form action="datossiniestro.php">
+    <!--
+        <form action="datossiniestro.php">
 
         <h3 class="formindica">Completá el formulario</h3>
 
@@ -90,11 +124,14 @@
         <input class="camposform"  type= "submit" >
     </form>
     
-      <!--fin formulario-->
+      FIN FORMULARIO
+
+      -->
 
       <div class="indicacionsiniestro">
-          <h2 class="indicaciontext">A la brevedad nos pondremos en contacto para asesorarte.</h2>
-      </div>
+        <h2>A la brevedad nos pondremos en contacto para asesorarte.</h2>
+    </div>
+    -->
 
        <!-- seccion de contacto y redes sociales-->
 
@@ -153,6 +190,7 @@
 </footer>
 
  <!-- Fin seccion de contacto y redes sociales-->
-
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
